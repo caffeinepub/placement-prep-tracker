@@ -1,0 +1,57 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 3,
+  "summary": "Build \"Placement Prep Tracker\" for Tier-2/3 college students preparing for campus placements, focused on behavior-based daily tracking, readiness scoring, weak-area detection, mock-test analytics, and a guidance dashboard.",
+  "architectural_notes": [
+    "Core principle: track user behavior (study logs, consistency) not just content consumption.",
+    "Primary entities: User, Topic, StudyLog, MockTest, MockAttempt, WeakArea.",
+    "Readiness algorithm baseline: readiness = 0.4*consistency + 0.4*accuracy + 0.2*coverage using recent study logs, mock accuracy, topic weights, and consistency.",
+    "Tech stack target: React/Next.js frontend; Node (Express) or Django backend; PostgreSQL DB; JWT auth; deploy to Railway/Render/Vercel.",
+    "Non-functional targets: mobile-first UX, <500ms response time target, data retention 1 year, initial DAU target ~200."
+  ],
+  "known_issues": [],
+  "isFixRequest": false,
+  "existing_features": [],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Authentication: signup, login, JWT-based sessions",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "Student onboarding: graduation year, branch, target companies selection",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "Daily tracking: study log (topic, time spent, confidence), streak counter",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-4",
+      "summary": "Readiness engine: compute readiness score (0-100), detect weak areas, predict exam readiness",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-5",
+      "summary": "Mock tests: record attempts, accuracy analytics, company-wise performance",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-6",
+      "summary": "Dashboard: daily plan suggestions, progress graphs, weak-topic alerts",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "Placement Prep Tracker",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

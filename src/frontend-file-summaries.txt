@@ -1,0 +1,15 @@
+{
+  "frontend/src/App.tsx": "Main application component with TanStack Router setup, theme provider, and route definitions for all pages (Landing, Dashboard, StudyLog, MockTests, Progress, Profile, Onboarding).",
+  "frontend/src/components/Header.tsx": "Responsive header component with navigation, authentication controls, theme toggle, and mobile menu using Sheet component.",
+  "frontend/src/components/Footer.tsx": "Footer component with quick links, social media icons, and attribution to caffeine.ai with proper UTM tracking.",
+  "frontend/src/pages/Landing.tsx": "Landing page with hero section, feature cards, and call-to-action sections showcasing the app's value proposition.",
+  "frontend/src/pages/Onboarding.tsx": "Multi-step onboarding flow for new users to set up their profile with graduation year, branch, and target companies.",
+  "frontend/src/pages/Dashboard.tsx": "Main dashboard displaying readiness score, study streak, daily plan, weak areas, and recent activity with mock data.",
+  "frontend/src/pages/StudyLog.tsx": "Study logging interface with tabbed layout for creating new study sessions and viewing history with category/topic selection.",
+  "frontend/src/pages/MockTests.tsx": "Mock test management page with available tests, performance stats, filtering by company, and test history.",
+  "frontend/src/pages/Progress.tsx": "Analytics page with multiple chart views (weekly activity, category distribution, readiness trend, topic progress) using Recharts.",
+  "frontend/src/pages/Profile.tsx": "User profile page with editable personal information, target companies, and Internet Identity display.",
+  "frontend/src/hooks/useQueries.ts": "React Query hooks for backend integration with placeholder implementations for user profile, study logs, readiness score, and mock tests.",
+  "frontend/src/index.css": "Global styles with custom OKLCH color system for light and dark modes using purple/blue primary colors and pink accent.",
+  "frontend/tailwind.config.js": "Tailwind configuration with Inter font family and extended color tokens matching the design system."
+}
